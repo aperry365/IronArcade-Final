@@ -1,0 +1,121 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6493712896197943232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6493712896197943246}
+  - component: {fileID: 6493712896197943233}
+  m_Layer: 0
+  m_Name: Quizmanager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6493712896197943246
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6493712896197943232}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6493712896197943233
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6493712896197943232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4ca8586a482e44038aa0c519d4e0d023, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  IsBasketball: 0
+  IsBowling: 0
+  IsArchery: 0
+  IsRocket: 0
+  questions:
+  - question: 'Quction '
+    answers:
+    - Answre a
+    - Answre b
+    - Answre c
+    - Answre d
+    correctAnswerIndex: 3
+  - question: Quction B?
+    answers:
+    - Answre a
+    - Answre b
+    - Answre c
+    - Answre d
+    correctAnswerIndex: 2
+  - question: Quction C?
+    answers:
+    - Answre a
+    - Answre b
+    - Answre c
+    - Answre d
+    correctAnswerIndex: 1
+  - question: Quction D?
+    answers:
+    - Answre a
+    - Answre b
+    - Answre c
+    - Answre d
+    correctAnswerIndex: 0
+  - question: Quction D?
+    answers:
+    - Answre a
+    - Answre b
+    - Answre c
+    - Answre d
+    correctAnswerIndex: 0
+  - question: Quction E?
+    answers:
+    - Answre a
+    - Answre b
+    - Answre c
+    - Answre d
+    correctAnswerIndex: 3
+  - question: Quction F?
+    answers:
+    - Answre a
+    - Answre b
+    - Answre c
+    - Answre d
+    correctAnswerIndex: 1
+  - question: Quction G?
+    answers:
+    - Answre a
+    - Answre b
+    - Answre c
+    - Answre d
+    correctAnswerIndex: 2
+  questionText: {fileID: 0}
+  answerButtons:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  shooterScript: {fileID: 0}
+  strikerScript: {fileID: 0}
+  bowLogicScript: {fileID: 0}
+  RocketScript: {fileID: 0}
+  QuestionResult: {fileID: 0}
+  ScoreResult: {fileID: 0}
+  QuizBoard: {fileID: 0}
+  CurrentScore: 0
